@@ -1,0 +1,27 @@
+{
+    "name": "Fat Bart Simpson",
+    "hitbox_adjust": {
+        "x": -100,
+        "y": 0
+    },
+    "bounce_height": 1,
+    "image": "images/barts/fatbart.webp",
+    "health": 8,
+    "speed": 0.4,
+    "damage": 59,
+    "score": 100,
+    "sounds": {
+        "hurt": [
+            {
+                "audio_base_url": "MISC",
+                "audio_track": "bart_hurt_fat.mp3"
+            }
+        ],
+        "spawn": [
+            {
+                "audio_base_url": "MISC",
+                "audio_track": "bart_spawn_fat.mp3"
+            }
+        ]
+    }
+}

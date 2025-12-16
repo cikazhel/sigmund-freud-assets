@@ -1,0 +1,25 @@
+{
+    "name": "Level 9",
+    "desc": "let it begin...",
+    "enemies": {
+        "void_bart.json": {
+            "count": 5,
+            "interval": 3000,
+            "delay": 1000
+        },
+        "final_bart.json": {
+            "count": 1,
+            "interval": 0,
+            "delay": 100
+        }
+    },
+    "display": {
+        "img_background": "./images/basement_entry.jpg"
+    },
+    "track": {
+        "audio_base_url": "MISC",
+        "audio_track": "the_world_machine.mp3",
+        "audio_track_volume": 0.2
+    },
+    "next": "level_10.json"
+}

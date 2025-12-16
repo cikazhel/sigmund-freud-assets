@@ -1,0 +1,29 @@
+{
+    "name": "Fancy Bartholomew Simpson",
+    "hitbox_adjust": {
+        "x": -100,
+        "y": 0
+    },
+    "bounce_height": 0.2,
+    "image": "images/barts/fancybart.png",
+    "health": 2,
+    "speed": 1,
+    "damage": 5,
+    "score": 10,
+    "sounds": {
+        "hurt": [
+            {
+                "audio_base_url": "MISC",
+                "audio_track": "bart_hurt_fancy.mp3",
+                "audio_track_volume": 0.5
+            }
+        ],
+        "spawn": [
+            {
+                "audio_base_url": "MISC",
+                "audio_track": "bart_spawn_fancy.mp3",
+                "audio_track_volume": 0.5
+            }
+        ]
+    }
+}

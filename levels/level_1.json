@@ -1,0 +1,20 @@
+{
+    "name": "Level 1",
+    "desc": "let it begin...",
+    "enemies": {
+        "default_bart.json": {
+            "count": 10,
+            "interval": 1000,
+            "delay": 0
+        }
+    },
+    "display": {
+        "img_background": "./images/ravenholm.webp"
+    },
+    "track": {
+        "audio_base_url": "MISC",
+        "audio_track": "memory_merge_instrumental.mp3",
+        "audio_track_volume": 0.2
+    },
+    "next": "level_2.json"
+}

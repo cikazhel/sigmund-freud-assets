@@ -1,0 +1,30 @@
+{
+    "name": "Level 5",
+    "desc": "let it begin...",
+    "enemies": {
+        "default_bart.json": {
+            "count": 3,
+            "interval": 3000,
+            "delay": 1200
+        },
+        "fat_bart.json": {
+            "count": 3,
+            "interval": 2000,
+            "delay": 1000
+        },
+        "fancy_bart.json": {
+            "count": 2,
+            "interval": 3000,
+            "delay": 500
+        }
+    },
+    "display": {
+        "img_background": "./images/restaurant.jpg"
+    },
+    "track": {
+        "audio_base_url": "MISC",
+        "audio_track": "somewhere.mp3",
+        "audio_track_volume": 0.2
+    },
+    "next": "level_6.json"
+}

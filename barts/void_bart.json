@@ -1,0 +1,29 @@
+{
+    "name": "???",
+    "hitbox_adjust": {
+        "x": -100,
+        "y": 0
+    },
+    "bounce_height": 0,
+    "image": "images/barts/voidbart.webp",
+    "health": 1,
+    "speed": 5,
+    "damage": 2,
+    "score": 50,
+    "sounds": {
+        "hurt": [
+            {
+                "audio_base_url": "MISC",
+                "audio_track": "bart_hurt_void.mp3",
+                "audio_track_volume": 0.8
+            }
+        ],
+        "spawn": [
+            {
+                "audio_base_url": "MISC",
+                "audio_track": "bart_spawn_void.mp3",
+                "audio_track_volume": 0.8
+            }
+        ]
+    }
+}

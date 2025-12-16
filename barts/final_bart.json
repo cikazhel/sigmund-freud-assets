@@ -1,0 +1,29 @@
+{
+    "name": "Discord.",
+    "hitbox_adjust": {
+        "x": -100,
+        "y": 0
+    },
+    "bounce_height": 1,
+    "image": "images/barts/discord.png",
+    "health": 10,
+    "speed": 0.2,
+    "damage": 1000,
+    "score": 500,
+    "sounds": {
+        "hurt": [
+            {
+                "audio_base_url": "MISC",
+                "audio_track": "bart_hurt_final.mp3",
+                "audio_track_volume": 1
+            }
+        ],
+        "spawn": [
+            {
+                "audio_base_url": "MISC",
+                "audio_track": "bart_spawn_final.mp3",
+                "audio_track_volume": 0.8
+            }
+        ]
+    }
+}

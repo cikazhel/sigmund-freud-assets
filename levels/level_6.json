@@ -1,0 +1,20 @@
+{
+    "name": "Level 6",
+    "desc": "let it begin...",
+    "enemies": {
+        "void_bart.json": {
+            "count": 20,
+            "interval": 100,
+            "delay": 2000
+        }
+    },
+    "display": {
+        "img_background": "./images/basement_stairs.png"
+    },
+    "track": {
+        "audio_base_url": "MISC",
+        "audio_track": "boomcloud.wav",
+        "audio_track_volume": 0.0
+    },
+    "next": "level_7.json"
+}

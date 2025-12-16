@@ -1,0 +1,44 @@
+{
+    "name": "Level 0 (TEST)",
+    "desc": "let it begin...",
+    "enemies": {
+        "default_bart.json": {
+            "count": 1,
+            "interval": 0,
+            "delay": 0
+        },
+        "bouncy_bart.json": {
+            "count": 1,
+            "interval": 0,
+            "delay": 1000
+        },
+        "final_bart.json": {
+            "count": 1,
+            "interval": 0,
+            "delay": 2000
+        },
+        "fancy_bart.json": {
+            "count": 1,
+            "interval": 0,
+            "delay": 3000
+        },
+        "radioactive_bart.json": {
+            "count": 1,
+            "interval": 0,
+            "delay": 4000
+        },
+        "fat_bart.json": {
+            "count": 1,
+            "interval": 0,
+            "delay": 5000
+        }
+    },
+    "display": {
+        "img_background": "./images/test_level.png"
+    },
+    "track": {
+        "audio_base_url": "MISC",
+        "audio_track": "memory_merge_instrumental.mp3",
+        "audio_track_volume": 0.2
+    }
+}

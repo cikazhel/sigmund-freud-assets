@@ -1,0 +1,27 @@
+{
+    "name": "Bart Simpson",
+    "hitbox_adjust": {
+        "x": -100,
+        "y": 0
+    },
+    "bounce_height": 1,
+    "image": "images/barts/fartsimpleton.webp",
+    "health": 4,
+    "speed": 1.5,
+    "damage": 20,
+    "score": 5,
+    "sounds": {
+        "hurt": [
+            {
+                "audio_base_url": "MISC",
+                "audio_track": "bart_hurt.mp3"
+            }
+        ],
+        "spawn": [
+            {
+                "audio_base_url": "MISC",
+                "audio_track": "bart_spawn.mp3"
+            }
+        ]
+    }
+}

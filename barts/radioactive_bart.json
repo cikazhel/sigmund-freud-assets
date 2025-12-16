@@ -1,0 +1,53 @@
+{
+    "name": "Cart Limpleton",
+    "hitbox_adjust": {
+        "x": -100,
+        "y": 0
+    },
+    "bounce_height": 1,
+    "image": "images/barts/cartlimpleton.webp",
+    "health": 6,
+    "speed": 1.2,
+    "damage": 25,
+    "score": 60,
+    "sounds": {
+        "hurt": [
+            {
+                "audio_base_url": "HL1",
+                "audio_track": "player/geiger1.wav",
+                "audio_track_volume": 0.6
+            },
+            {
+                "audio_base_url": "HL1",
+                "audio_track": "player/geiger2.wav",
+                "audio_track_volume": 0.6
+            },
+            {
+                "audio_base_url": "HL1",
+                "audio_track": "player/geiger3.wav",
+                "audio_track_volume": 0.6
+            },
+            {
+                "audio_base_url": "HL1",
+                "audio_track": "player/geiger4.wav",
+                "audio_track_volume": 0.6
+            },
+            {
+                "audio_base_url": "HL1",
+                "audio_track": "player/geiger5.wav",
+                "audio_track_volume": 0.6
+            },
+            {
+                "audio_base_url": "HL1",
+                "audio_track": "player/geiger6.wav",
+                "audio_track_volume": 0.6
+            }
+        ],
+        "spawn": [
+            {
+                "audio_base_url": "MISC",
+                "audio_track": "bart_spawn.mp3"
+            }
+        ]
+    }
+}

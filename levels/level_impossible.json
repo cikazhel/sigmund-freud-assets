@@ -1,0 +1,24 @@
+{
+    "name": "Level 3",
+    "desc": "gud job. thereare molre.",
+    "enemies": {
+        "default_bart.json": {
+            "count": 200,
+            "interval": 100,
+            "delay": 0
+        },
+        "bouncy_bart.json": {
+            "count": 200,
+            "interval": 100,
+            "delay": 0
+        }
+    },
+    "display": {
+        "img_background": "./images/ravenholm.webp"
+    },
+    "track": {
+        "audio_base_url": "MISC",
+        "audio_track": "soulknight.flac",
+        "audio_track_volume": 0.1
+    }
+}

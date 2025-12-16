@@ -1,0 +1,25 @@
+{
+    "name": "Level 2",
+    "desc": "gud job. thereare molre.",
+    "enemies": {
+        "default_bart.json": {
+            "count": 3,
+            "interval": 2241,
+            "delay": 0
+        },
+        "fancy_bart.json": {
+            "count": 5,
+            "interval": 1321,
+            "delay": 0
+        }
+    },
+    "display": {
+        "img_background": "./images/bart_casilino.png"
+    },
+    "track": {
+        "audio_base_url": "MISC",
+        "audio_track": "jackpot_overdose.mp3",
+        "audio_track_volume": 0.1
+    },
+    "next": "level_3.json"
+}

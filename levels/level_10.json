@@ -1,0 +1,39 @@
+{
+    "name": "Level 10",
+    "desc": "finish the job.",
+    "enemies": {
+        "default_bart.json": {
+            "count": 1,
+            "interval": 0,
+            "delay": 6000
+        },
+        "radioactive_bart.json": {
+            "count": 20,
+            "interval": 2900,
+            "delay": 12000
+        },
+        "bouncy_bart.json": {
+            "count": 80,
+            "interval": 1500,
+            "delay": 16000
+        },
+        "final_bart.json": {
+            "count": 4,
+            "interval": 10064,
+            "delay": 22000
+        },
+        "void_bart.json": {
+            "count": 20,
+            "interval": 10000,
+            "delay": 28000
+        }
+    },
+    "display": {
+        "img_background": "./images/test_level.png"
+    },
+    "track": {
+        "audio_base_url": "MISC",
+        "audio_track": "die_alone.mp3",
+        "audio_track_volume": 0.2
+    }
+}

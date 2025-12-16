@@ -1,0 +1,25 @@
+{
+    "name": "Level 3",
+    "desc": "gud job. thereare molre.",
+    "enemies": {
+        "default_bart.json": {
+            "count": 5,
+            "interval": 1480,
+            "delay": 0
+        },
+        "bouncy_bart.json": {
+            "count": 8,
+            "interval": 690,
+            "delay": 8000
+        }
+    },
+    "display": {
+        "img_background": "./images/trampoline_park.jpg"
+    },
+    "track": {
+        "audio_base_url": "MISC",
+        "audio_track": "soulknight.flac",
+        "audio_track_volume": 0.1
+    },
+    "next": "level_4.json"
+}

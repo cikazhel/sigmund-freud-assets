@@ -1,0 +1,31 @@
+{
+    "name": "Gart Boomson",
+    "hitbox_adjust": {
+        "x": -100,
+        "y": 0
+    },
+    "bounce_height": 1,
+    "image": "images/barts/gart.png",
+    "health": 20,
+    "speed": 1,
+    "damage": 20,
+    "score": 100,
+    "sounds": {
+        "hurt": [
+            {
+                "audio_base_url": "HL1",
+                "audio_track": "debris/bustmetal1.wav"
+            },
+            {
+                "audio_base_url": "HL1",
+                "audio_track": "debris/bustmetal2.wav"
+            }
+        ],
+        "spawn": [
+            {
+                "audio_base_url": "MISC",
+                "audio_track": "bart_spawn.mp3"
+            }
+        ]
+    }
+}

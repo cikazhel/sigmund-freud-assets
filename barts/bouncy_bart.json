@@ -1,0 +1,27 @@
+{
+    "name": "Bouncy Simpson",
+    "hitbox_adjust": {
+        "x": -100,
+        "y": 0
+    },
+    "bounce_height": 8,
+    "image": "images/barts/bouncybart.webp",
+    "health": 2,
+    "speed": 1,
+    "damage": 20,
+    "score": 30,
+    "sounds": {
+        "hurt": [
+            {
+                "audio_base_url": "MISC",
+                "audio_track": "bart_hurt_spring.mp3"
+            }
+        ],
+        "spawn": [
+            {
+                "audio_base_url": "MISC",
+                "audio_track": "bart_spawn_spring.mp3"
+            }
+        ]
+    }
+}
