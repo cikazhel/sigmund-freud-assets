@@ -4,7 +4,7 @@ import * as util from './util.js';
 
 // constants
 
-const DEV_ENABLED = true; // use dev directories?
+const DEV_ENABLED = false; // use dev directories?
 const DEV_DRAW_HITBOXES = false; // draw hitboxes?
 
 const CAMERA_PARALLAX_ENABLED = true; // enable mouse parallax?
